@@ -1,0 +1,83 @@
+html {
+    
+}
+
+body {
+    border: 1px solid blue;
+    padding: 0;
+    margin:0;
+    background-image: url('C:/Users/Rekkl/OneDrive/Documents/code_base/integration/1/background.jpg');
+    background-size: cover;
+}
+
+header {
+    position: relative;
+    background-color: #EEEEEE;
+    border-radius: 0px 0px 1px 1px;
+}
+
+.content {
+    height: 83vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.majorTitle {
+    font-size: 100px;
+    padding: 0;
+    padding-right: 10px;
+    margin-top: 200px;
+    margin-left: 400px;
+    text-align: left;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    border: 3px solid red;
+    border-right: 2px solid #EEEEEE;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.secondTitle {
+    margin-right: 400px;
+    padding-top: 255px;
+    padding-left: 30px;
+    font-size: 70px;
+    text-align: right;
+    text-decoration: underline;
+    color: #B4B4B4;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-radius: 7px;
+    color: #606060;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.rowList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 50%;
+    margin : 0 auto;
+}
+
+.menuItems {
+}
