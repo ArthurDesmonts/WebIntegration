@@ -1,13 +1,12 @@
 html {
-    
+    padding: 0;
+    margin: 0;
 }
 
 body {
     border: 1px solid blue;
     padding: 0;
-    margin:0;
-    background-image: url('C:/Users/Rekkl/OneDrive/Documents/code_base/integration/1/Standard Interface/background.jpg');
-    background-size: cover;
+    margin: 0;
 }
 
 header {
@@ -21,6 +20,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-image: url('C:/Users/Rekkl/OneDrive/Documents/code_base/integration/1/Standard Interface/background.jpg');
+    background-size: cover;
 }
 
 .majorTitle {
@@ -34,16 +35,15 @@ header {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
-    border: 3px solid red;
     border-right: 2px solid #EEEEEE;
     padding-bottom: 0;
-    margin-bottom: 0;
+    margin-bottom: 200px;
 }
 
 .secondTitle {
     margin-right: 400px;
-    padding-top: 255px;
-    padding-left: 30px;
+    margin-top: 255px;
+    padding-left: 50px;
     font-size: 70px;
     text-align: right;
     text-decoration: underline;
@@ -51,12 +51,12 @@ header {
     font-style: italic;
 }
 
-ul {
+header ul {
     list-style-type: none;
     padding: 0;
 }
 
-li {
+header li {
     padding: 10px;
     border-radius: 7px;
     color: #606060;
@@ -65,9 +65,13 @@ li {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-li a {
+header li a {
     text-decoration: none;
     color: inherit;
+}
+
+header li a:hover {
+    color: black;
 }
 
 .rowList {
@@ -79,5 +83,24 @@ li a {
     margin : 0 auto;
 }
 
-.menuItems {
+.menuCollasped {
+    display: none;
+}
+
+.svgMenu {
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+}
+
+/*Footer*/
+
+footer {
+    text-align: center;
+}
+
+.footerText {
+    color: #B4B4B4;
+    font-size: 11px;
+    font-weight: bold;
 }
