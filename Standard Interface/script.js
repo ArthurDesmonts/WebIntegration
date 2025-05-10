@@ -1,4 +1,4 @@
-var menu = document.querySelector("header");
+/*var menu = document.querySelector("header");
 var menuButton = document.querySelector(".menuCollasped");
 var menuItems = document.querySelector(".menuItems");
 
@@ -10,4 +10,4 @@ window.addEventListener("scroll", function() {
         menuItems.style.display = "flex";
         menuButton.style.display = "none";
     }
-});
+});*/
