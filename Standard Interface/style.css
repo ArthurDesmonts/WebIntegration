@@ -12,13 +12,70 @@ body {
 header {
     position: relative;
     background-color: #191919;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 7px;
+        color: #606060;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    li a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    li a:hover {
+        color: white;
+        transition-duration: 0.3s;
+    }
+
+
+    nav {
+        padding-left: 100px;
+        padding-right: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    }
+
+    .rowList {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px;
+        max-width: 50%;
+        margin : 0 auto;
+    }
 }
 
+
+
+/* MAIN */
 .content {
     height: 83vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     background-image: url('C:/Users/Rekkl/OneDrive/Documents/code_base/integration/1/Standard Interface/background.jpg');
     background-size: cover;
 }
@@ -50,49 +107,6 @@ header {
     font-style: italic;
 }
 
-header ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-header li {
-    padding: 10px;
-    border-radius: 7px;
-    color: #606060;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-header li a {
-    text-decoration: none;
-    color: inherit;
-}
-
-header li a:hover {
-    color: white;
-    transition-duration: 0.3s;
-}
-
-.rowList {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-    max-width: 50%;
-    margin : 0 auto;
-}
-
-.menuCollasped {
-    display: none;
-}
-
-.svgMenu {
-    width: 50px;
-    height: 50px;
-    max-width: 50px;
-}
-
 /* Carroussel */
 .galerieCarroussel {
     background-color: #606060;
@@ -104,10 +118,11 @@ header li a:hover {
 
 footer {
     text-align: center;
+
+    .footerText {
+        color: #B4B4B4;
+        font-size: 11px;
+        font-weight: bold;
+    }
 }
 
-.footerText {
-    color: #B4B4B4;
-    font-size: 11px;
-    font-weight: bold;
-}
