@@ -128,9 +128,48 @@ header {
 
 /* Carroussel */
 .galerieCarroussel {
-    background-color: #606060;
-    padding: 0;
+    background-color: #191919;
+    padding: 10px;
     margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 60% 1fr;
+    grid-template-rows: 300px;
+
+    .carrouselDiv {
+        grid-column-start: 2;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        .carrousselText {
+            color:  #EEEEEE;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .carrousselImage {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            img {
+                width: 266px;
+                height: 224px;
+            }
+
+            .mooveButton {
+                background-color: rgba(0, 0, 0, 0.2);
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                width: 30px;
+                height: 30px;
+                z-index: 1;
+                justify-content: center;
+            }
+        }
+    }
 }
 
 /*Footer*/
