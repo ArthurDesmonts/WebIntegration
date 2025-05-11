@@ -4,7 +4,6 @@ html {
 }
 
 body {
-    border: 1px solid blue;
     padding: 0;
     margin: 0;
 }
@@ -44,18 +43,25 @@ header {
         padding-right: 100px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .logo {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: center;
 
         img {
             width: 50px;
             height: 50px;
             border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        h1 {
+            color: #606060;
+            font-family: Arial, Helvetica, sans-serif;
         }
     }
 
@@ -63,9 +69,22 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        flex-wrap: wrap;
         padding: 20px;
         max-width: 50%;
         margin : 0 auto;
+    }
+
+    .researchBar {
+        margin: 10px;
+
+        .searchInput {
+            padding: 10px;
+            border-radius: 50px;
+            background-color: #222222;
+            color: white;
+            font-weight: bold;
+        }
     }
 }
 
@@ -73,7 +92,7 @@ header {
 
 /* MAIN */
 .content {
-    height: 83vh;
+    height: 85vh;
     display: flex;
     flex-direction: row;
     background-image: url('C:/Users/Rekkl/OneDrive/Documents/code_base/integration/1/Standard Interface/background.jpg');
