@@ -110,10 +110,13 @@ header {
 /* MAIN */
 .content {
     height: 85vh;
+    min-height: 600px;
     display: flex;
     flex-direction: row;
     background-image: url('background.jpg');
     background-size: cover;
+    overflow: hidden;
+    position: relative;
 }
 
 .majorTitle {
@@ -129,7 +132,8 @@ header {
     position: relative;
     border-right: 2px solid #EEEEEE;
     padding-bottom: 0;
-    margin-bottom: 200px;
+    margin-bottom: auto;
+    overflow: visible;
 }
 
 .secondTitle {
