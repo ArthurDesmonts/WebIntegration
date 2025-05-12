@@ -20,7 +20,6 @@ next.addEventListener("click", function () {
         current++;
     }
     updateDisplay();
-    console.log("new current : " + current);
 });
 
 previous.addEventListener("click", function () {
@@ -30,7 +29,6 @@ previous.addEventListener("click", function () {
         current--;
     }
     updateDisplay();
-    console.log("new current : " + current);
 });
 
 function updateDisplay() {
