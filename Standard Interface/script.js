@@ -36,15 +36,33 @@ previous.addEventListener("click", function () {
 function updateDisplay() {
     if (current == 1) {
         picture1.style.display = "block";
-        picture2.style.display = "none";
-        picture3.style.display = "none";
+        picture1.classList.remove("reducedPicture");
+        picture1.style.order = "0";
+
+        picture2.style.order = "1";
+        picture2.classList.add("reducedPicture");
+
+        picture3.classList.add("reducedPicture");
+        picture3.style.order = "-1";
     } else if (current == 2) {
-        picture1.style.display = "none";
+        picture1.classList.add("reducedPicture");
+        picture1.style.order = "-1";
+
         picture2.style.display = "block";
-        picture3.style.display = "none";
+        picture2.style.order = "0";
+        picture2.classList.remove("reducedPicture");
+
+        picture3.classList.add("reducedPicture");
+        picture3.style.order = "1";
     } else if (current == 3) {
-        picture1.style.display = "none";
-        picture2.style.display = "none";
+        picture1.classList.add("reducedPicture");
+        picture1.style.order = "1";
+
+        picture2.classList.add("reducedPicture");
+        picture2.style.order = "-1"
+
         picture3.style.display = "block";
+        picture3.style.order = "0";
+        picture3.classList.remove("reducedPicture");
     }
 }
