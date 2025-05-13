@@ -1,0 +1,96 @@
+/* Deezer CSS 
+    Coded by : Arthur DESMONTS
+*/
+.main-header {
+    width: 100%;
+    background-color: rgb(15,13,19);
+    padding: 0 112px;
+
+    .navbar {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        font-family: var(--font-default,"Inter","Arial",sans-serif);
+        padding-inline: 112px 112px;
+        gap: 14px;
+
+        ul {
+            list-style-type: none;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+    }
+
+    .navbar-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+
+        .nav-links {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            flex-wrap: nowrap;
+            align-items: center;
+            margin-right: 56px;
+
+            li {
+                margin-right: 14px;
+                font-size: 16px;
+                font-weight: 700;
+                height: 20px;
+            }
+            
+
+        }
+
+        .nav-auth {
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;            
+            font-size: 12px;
+            font-weight: 600;
+
+            .btn-login {
+                border: 1px solid rgb(85, 82, 87);
+                padding: 10px 20px;
+                border-radius: 8px;
+                width: fit-content;
+                cursor: pointer;
+                margin-right: 28px;
+                min-height: 34px;
+            }
+
+            .btn-signup {
+                background-color: var(--purple-color);
+                border-radius: 8px;
+                padding: 10px 20px;
+                margin: 5px 0;
+                width: fit-content;
+                cursor: pointer;
+                margin-right: 14px;
+                min-height: 34px;
+                text-align: center;
+            }
+            
+        }
+    }
+
+    .deezer-logo {
+        width: 107px;
+        height: 30px;
+        background-size: 107px 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("https://cdn-files.dzcdn.net/cache/slash/images/common/logos/logo-horizontal-white-text.c409af08ede4db772948.svg");
+    }
+}

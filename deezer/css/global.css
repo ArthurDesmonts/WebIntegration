@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --purple-color: rgb(162,56,255);
+}
+
+@font-face {
+    font-family: 'Deezer';
+    src: url('../assets/fonts/DeezerProduct-Extrabold.ttf') format('truetype');
+    font-weight: extra-bold;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(253, 252, 254);
+    width: 100%;
+}
+
+.hero {
+    font-family: 'Deezer', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: .9;
+    max-width: 900px;
+    text-wrap: balance;
+}
