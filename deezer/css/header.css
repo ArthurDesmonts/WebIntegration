@@ -47,9 +47,12 @@
                 font-size: 16px;
                 font-weight: 700;
                 height: 20px;
+                cursor: pointer;
             }
-            
 
+            a:hover {
+                color: var(--purple-color);
+            }
         }
 
         .nav-auth {
@@ -70,6 +73,11 @@
                 min-height: 34px;
             }
 
+            .btn-login:hover {
+                background-color: var(--btn-grey-hover-color);
+                transition: 0.3s ease-in-out;
+            }
+
             .btn-signup {
                 background-color: var(--purple-color);
                 border-radius: 8px;
@@ -80,6 +88,11 @@
                 margin-right: 14px;
                 min-height: 34px;
                 text-align: center;
+            }
+
+            .btn-signup:hover {
+                background-color: var(--btn-purple-hover-color);
+                transition: 0.3s ease-in-out;
             }
             
         }

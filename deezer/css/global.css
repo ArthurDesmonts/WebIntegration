@@ -4,6 +4,8 @@
     box-sizing: border-box;
 
     --purple-color: rgb(162,56,255);
+    --btn-grey-hover-color: rgb(41,42,45);
+    --btn-purple-hover-color: rgb(147,51,232);
 }
 
 @font-face {
