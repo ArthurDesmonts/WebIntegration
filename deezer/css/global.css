@@ -9,8 +9,13 @@
 
     --purple-color: rgb(162,56,255);
     --black-color: rgb(15,13,19);
+    --white-color: rgb(248,248,249);
+    --grey-color: rgb(41,40,45);
+    --light-grey-color: rgb(168,165,169);
+    --strong-grey-color: rgb(85,82,87);
     --btn-grey-hover-color: rgb(41,42,45);
     --btn-purple-hover-color: rgb(147,51,232);
+    --white-color-hover: rgb(234,234,234);
 }
 
 :root {
@@ -49,6 +54,14 @@ a {
     color: white;
 }
 
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+}
+
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -68,4 +81,78 @@ a {
 
 .last-child {
     margin-bottom: 0;
+}
+
+.a-default {
+    background-color: var(--purple-color);
+    color: white;
+    font-size: 14px;
+    font-family: var(--font-default,"Inter","Arial",sans-serif);
+    font-weight: 700;
+
+    padding: 8px 34px;
+    min-height: 42px;
+
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &:hover {
+        background-color: var(--btn-purple-hover-color);
+    }
+}
+
+.paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: var(--font-default,"Inter","Arial",sans-serif);
+    margin: 0;
+}
+
+.sticked-top {
+    margin: 0;
+}
+
+.white {
+    color: var(--white-color);
+}
+
+.light-grey {
+    color: var(--light-grey-color);
+}
+
+.strong-grey {
+    color: var(--strong-grey-color);
+}
+
+.monochrome {
+    background-color: white;
+    color: var(--black-color);
+
+    &:hover {
+        background-color: var(--white-color-hover);
+    }
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.my-30 {
+    margin: 30px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.row {
+    display: inline-flex;
+    gap: 8px;
 }
