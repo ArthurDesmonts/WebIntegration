@@ -115,6 +115,11 @@
         max-width: 724px;
     }
 
+    .text-no-transform-14 {
+        font-size: 14px;
+        text-transform: none !important;
+    }
+
     .card-container {
         display: flex;
         flex-direction: row;
@@ -226,15 +231,7 @@
         padding: 0 100px;
     }
 
-    h2 {
-        font-family: 'Deezer-bold', sans-serif;
-        font-size: 64px;
-        text-align: center;
-        text-wrap-mode: wrap;
-        font-weight: 700;
-        letter-spacing: .25px;
-        text-wrap: balance;
-
+    .h2-override {
         padding-top: 80px;
         margin-bottom: 24px;
         padding-left: 112px;
@@ -262,8 +259,50 @@
 
 /* ANIMATED CIRCLE SECTION END*/
 
-.flyers-section {
+.carousel-section {
     background-color: var(--black-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+
+
+    .h2-override {
+        display: block;
+        max-width: 1120px;
+        box-sizing: border-box;
+        direction: ltr;
+        margin-bottom: 24px;
+        
+
+        margin-block-end: 0.83em;
+        text-align: left;
+        text-wrap: wrap;
+        font-size: 65px;
+        line-height: 1.1;
+        letter-spacing: 1px;
+
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .carousel {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
+        padding-bottom: 120px;
+    }
+    
+    .reduced-img {
+        max-height: 450px;
+        max-width: 245px;
+    }
+
+    .individual-image-container {
+
+    }
 }
 
 /* responsive */
