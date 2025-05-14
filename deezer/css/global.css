@@ -24,6 +24,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Deezer-bold';
+    src: url('../assets/fonts/DeezerProduct-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
     background-color: rgb(253, 252, 254);
     width: 100%;
