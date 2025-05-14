@@ -3,7 +3,7 @@
 */
 .main-header {
     width: 100%;
-    background-color: rgb(15,13,19);
+    background-color: var(--black-color);
     padding: 0 112px;
 
     .navbar {
@@ -20,12 +20,6 @@
         ul {
             list-style-type: none;
         }
-        
-        a {
-            text-decoration: none;
-            color: white;
-        }
-
     }
 
     .navbar-content {

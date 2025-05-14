@@ -7,11 +7,11 @@
     <title>Deezer | Écoute de la musique en ligne | App de musique</title>
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
-<body>
     <?php include 'header.html'; ?>
     <?php include 'homePage.html'; ?>
     <?php include 'footer.html'; ?>
     <script src="js/script.js"></script>
-</body>
 </html>

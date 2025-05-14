@@ -1,11 +1,20 @@
+/* Deezer CSS 
+    Coded by : Arthur DESMONTS
+*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
     --purple-color: rgb(162,56,255);
+    --black-color: rgb(15,13,19);
     --btn-grey-hover-color: rgb(41,42,45);
     --btn-purple-hover-color: rgb(147,51,232);
+}
+
+:root {
+    --font-default: "Inter","Arial",sans-serif;
 }
 
 @font-face {
@@ -20,11 +29,36 @@ body {
     width: 100%;
 }
 
-.hero {
-    font-family: 'Deezer', sans-serif;
-    font-size: 100px;
-    font-weight: 800;
-    line-height: .9;
-    max-width: 900px;
-    text-wrap: balance;
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.paragraph {
+    font-family: var(--font-default);
+}
+
+.last-child {
+    margin-bottom: 0;
 }
