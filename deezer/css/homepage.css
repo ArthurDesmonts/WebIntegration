@@ -132,6 +132,9 @@
 
         .title-card {
             text-align: center;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             padding: 8px 20px;
             background-color: var(--purple-color);
             font-family: 'Deezer-bold', sans-serif;
@@ -143,7 +146,6 @@
             font-style: normal;
             font-weight: 700;
             height: 32px;
-            line-height: 24px;
             padding-bottom: 4px;
             padding-left: 15px;
             padding-right: 15px;
@@ -202,6 +204,10 @@
     }
 }
 
+/* OFFERS SECTION END */
+
+/* ANIMATED CIRCLE SECTION */
+
 .animated-h2-section {
     background-color: var(--black-color);
     color: var(--white-color);
@@ -258,6 +264,7 @@
     }
 }
 
+/* ANIMATED CIRCLE SECTION END*/
 
 .flyers-section {
     background-color: var(--black-color);
