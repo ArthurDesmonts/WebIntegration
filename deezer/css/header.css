@@ -91,13 +91,13 @@
             
         }
     }
+}
 
-    .deezer-logo {
-        width: 107px;
-        height: 30px;
-        background-size: 107px 30px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-image: url("https://cdn-files.dzcdn.net/cache/slash/images/common/logos/logo-horizontal-white-text.c409af08ede4db772948.svg");
-    }
+.deezer-logo {
+    width: 107px;
+    height: 30px;
+    background-size: 107px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://cdn-files.dzcdn.net/cache/slash/images/common/logos/logo-horizontal-white-text.c409af08ede4db772948.svg");
 }

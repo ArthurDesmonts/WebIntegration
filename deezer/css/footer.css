@@ -1,3 +1,91 @@
 /* Deezer CSS 
     Coded by : Arthur DESMONTS
 */
+
+.footer-main-container {
+    padding-top: 80px;
+    background-color: var(--black-color);
+
+    .deezer-logo {
+        width: 150px;
+        height: 50px;
+        background-size: 150px 50px;
+    }
+}
+
+.mobile-redirect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    padding-bottom: 64px;
+}
+
+.mobile-button {
+    width: 143px;
+    height: 45px;
+}
+
+.div-multi-col-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    padding: 0 90px 112px 90px;
+    
+
+    .flex-box {
+        justify-content: start;
+        gap: 24px;
+        width: 100%;
+
+        a {
+            font-size: 16px;
+            font-family: var(--font-default);
+            text-align: left;
+            color: var(--light-grey-color);
+            text-wrap: wrap;
+            cursor: pointer;
+        }
+
+        .a-title {
+            color: var(--white-color);
+            font-weight: bold;
+            font-family: var(--font-default);
+            cursor: auto;
+        }
+    }
+}
+
+.div-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px 112px 90px;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        min-width: 160px;
+        list-style: none;
+    }
+}
+
+.icon {
+    fill: var(--white-color);
+    cursor: pointer;
+}
+
+.link-text {
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer !important;
+    }
+}

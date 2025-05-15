@@ -113,7 +113,17 @@ a {
     text-align: center;
     text-wrap-mode: wrap;
     font-weight: 700;
-    letter-spacing: .25px;
+    letter-spacing: 0.25px;
+    text-wrap: balance;
+}
+
+.h3-title {
+    font-family: var(--font-default);
+    font-size: 20px;
+    text-align: center;
+    text-wrap-mode: wrap;
+    font-weight: 700;
+    letter-spacing: 0.25px;
     text-wrap: balance;
 }
 
@@ -178,4 +188,18 @@ a {
 .row {
     display: inline-flex;
     gap: 8px;
+}
+
+.white-underline {
+    color: var(--white-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hide {
+    display: none !important;
+}
+
+.pointer {
+    cursor:  pointer !important;
 }

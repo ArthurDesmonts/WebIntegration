@@ -1,5 +1,5 @@
-14h40
-15h
+Temps pour réaliser uniquement l'interface(sans gestion du responsive) :  17h20
+
 1er amélioration : 
     -> Dans le JS, reset de l'animation du svg de la section hifi (animated-h2-section).
     
@@ -10,6 +10,6 @@
 2eme amélioration :
     -> Disposition CSS des div enfants du Carousel.
 
-    Sur le site officiel, ils utilisent une grid qui casse lorsque que la fenetre est de width < 1150px.
+    Sur le site officiel, ils utilisent une grid qui casse lorsque que la fenetre est de width < 1150px. Dans ce cas ils utilisent des bouttons pour switch de card, ce qui je trouve rend l'interface moins fluide.
 
     -> J'ai donc utilisé une flex-box qui wrap mes div pour éviter ce cas, et donc gère le responsive automatiquement.
