@@ -54,7 +54,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 150px;
+        gap: 120px;
     }
 
     .div-title {
@@ -71,7 +71,7 @@
         }
 
         .caracter-svg {
-            max-width: 1042px;
+            max-width: 900px;
             padding-top: 28px;
         }
     }

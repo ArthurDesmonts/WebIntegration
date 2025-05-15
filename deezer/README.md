@@ -1,4 +1,4 @@
-Temps pour réaliser uniquement l'interface(sans gestion du responsive) :  17h20
+Temps pour réaliser uniquement l'interface(sans gestion du responsive) :  17h30
 
 1er amélioration : 
     -> Dans le JS, reset de l'animation du svg de la section hifi (animated-h2-section).
