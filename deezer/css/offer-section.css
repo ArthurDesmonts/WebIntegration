@@ -189,4 +189,10 @@
     
 }
 
+@media (width < 500px) {
+    .offers-section {
+        margin: 0;
+    }
+}
+
 /* OFFERS SECTION END */

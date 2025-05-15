@@ -14,8 +14,7 @@
     align-items: center;
     padding: 120px 24px;
 
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
 
     .circle-background {
         display: flex;
@@ -42,6 +41,7 @@
     }
 
     .moove-circle {
+        display: block;
         transition: transform 0.2s ease-out;
         will-change: transform;
     }
@@ -102,4 +102,10 @@
     }
 }
 
+@media (width < 500px) {
+    .animated-h2-section {
+        margin-top: -1px;
+        margin-bottom: -1px;
+    }
+}
 /* ANIMATED CIRCLE SECTION END*/
