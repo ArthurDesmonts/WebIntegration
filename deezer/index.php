@@ -18,7 +18,7 @@
 
 </head>
     <?php include 'header.html'; ?>
-    <?php include 'homePage.html'; ?>
+    <?php include 'index.html'; ?>
     <?php include 'footer.html'; ?>
     <script src="js/script.js"></script>
     <script src="js/carousel.js"></script>
