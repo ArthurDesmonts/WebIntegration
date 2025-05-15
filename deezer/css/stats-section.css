@@ -67,7 +67,6 @@
         h2 {
             display: block;
             padding: 0 20% 0 20%;
-
         }
 
         .caracter-svg {
@@ -150,4 +149,46 @@
     100% {
         transform: translateX(-33.33%);
     }
+}
+
+@media (width < 1160px) {
+    .stats-section {
+        padding-top: 50px;
+
+        .div-title {
+            .h2-default {
+                font-size: 42px;
+            }
+
+            .caracter-svg {
+                padding: 0 20px 0 20px;
+            }
+        }
+
+        .div-library {
+            img {
+                max-width: 100%;
+                padding: 0 20px 0 20px;
+                min-width: 240px;
+            }
+        }
+    }
+}
+
+@media (width < 768px) {
+    .banner {
+        font-size: 42px;
+    }
+
+    .banner-items {
+        gap: 5px;
+    }
+
+    .logo-svg {
+        width: 42px;
+        height: 42px;
+        margin: 0;
+        flex-shrink: 0;
+    }
+
 }

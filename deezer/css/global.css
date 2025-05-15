@@ -203,3 +203,22 @@ a {
 .pointer {
     cursor:  pointer !important;
 }
+
+@media (width < 1160px) {
+    .h2-default {
+        font-size: 42px;
+    }
+}
+
+@media (width < 768px) {
+    .h2-default {
+        font-size: 38px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .paragraph {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

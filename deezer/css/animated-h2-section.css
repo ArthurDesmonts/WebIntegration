@@ -64,10 +64,6 @@
 
         .circle-background {
 
-            .h2-default {
-                font-size: 42px;
-            }
-
             .h2-override {
                 padding-top: 100px;
                 margin-bottom: 40px;
@@ -90,7 +86,6 @@
             padding: 0;
 
             .h2-default {
-                font-size: 38px;
                 margin: 10px;
             }
 
