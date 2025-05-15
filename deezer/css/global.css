@@ -142,11 +142,20 @@ a {
 }
 
 .monochrome {
-    background-color: white;
+    background-color: var(--white-color);
     color: var(--black-color);
 
     &:hover {
         background-color: var(--white-color-hover);
+    }
+}
+
+.monochrome-reverte {
+    background-color: var(--black-color);
+    color: var(--white-color);
+
+    &:hover {
+        background-color: var(--grey-color);
     }
 }
 

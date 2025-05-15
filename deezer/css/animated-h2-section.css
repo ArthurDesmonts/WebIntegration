@@ -1,0 +1,55 @@
+/* Deezer CSS 
+    Coded by : Arthur DESMONTS
+*/
+
+/* ANIMATED CIRCLE SECTION */
+
+.animated-h2-section {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 24px;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    .circle-background {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1120px;
+        padding: 0 100px;
+    }
+
+    .h2-override {
+        padding-top: 80px;
+        margin-bottom: 24px;
+        padding-left: 112px;
+        padding-right: 112px;
+    }
+
+    svg {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 0;
+        height: 465px;
+    }
+
+    .moove-circle {
+        transition: transform 0.2s ease-out;
+        will-change: transform;
+    }
+    
+    .swirly-visual path {
+        transition: transform 0.3s ease-out;
+        will-change: transform;
+    }
+}
+
+/* ANIMATED CIRCLE SECTION END*/

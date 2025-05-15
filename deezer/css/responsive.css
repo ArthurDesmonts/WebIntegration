@@ -1,0 +1,31 @@
+/* Deezer CSS 
+    Coded by : Arthur DESMONTS
+*/
+
+/* RESPONSIVE */
+
+@media (width < 1100px) {
+    .animated-h2-section .circle-background {
+        padding-left: 0;
+        padding-right: 0;
+
+        h2 {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+
+@media (width < 750px) {
+    .offers-section .card-container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .offers-section .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
