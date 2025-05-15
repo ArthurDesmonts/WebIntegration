@@ -16,4 +16,4 @@ Temps passé sur le responsive :
 
     Sur le site officiel, ils utilisent une grid qui casse lorsque que la fenetre est de width < 1150px. Dans ce cas ils utilisent des bouttons pour switch de card, ce qui je trouve rend l'interface moins fluide.
 
-    -> J'ai donc utilisé une flex-box qui wrap mes div pour éviter ce cas, et donc gère le responsive automatiquement.
+    -> J'ai donc utilisé une flex-box qui wrap mes div, puis une fois à la largeur 1330px, je change le display pour une grid 2x2, qui repasse en flex-box à la largeur 768px.
