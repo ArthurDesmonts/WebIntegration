@@ -1,5 +1,5 @@
-10h30
-
+12h
+11H
 1er amélioration : 
     -> Dans le JS, reset de l'animation du svg de la section hifi (animated-h2-section).
     
