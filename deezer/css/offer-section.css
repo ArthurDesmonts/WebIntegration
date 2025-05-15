@@ -146,4 +146,47 @@
     }
 }
 
+
+/* RESPONSIVE */
+
+@media (width < 1160px) {
+    .offers-section {
+
+        h2 {
+            font-size: 42px;
+        }
+    }
+}
+
+@media (width < 768px) {
+
+    .offers-section {
+
+        padding-bottom : 0;
+        margin-bottom: 0;
+        
+        h2 {
+            font-size: 38px;
+        }
+
+        .card-container {
+            flex-direction: column;
+            height: auto;
+            min-height: 500px;
+            margin-bottom: 0;
+
+
+            .card {
+                height: auto;
+                min-height: 450px;
+            }
+        }
+
+        .mt-30 {
+            margin-top: 10px;
+        }
+    }
+    
+}
+
 /* OFFERS SECTION END */
