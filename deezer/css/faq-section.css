@@ -95,3 +95,18 @@
         }
     }
 }
+
+@media (width < 500px) {
+    .faq-section {
+        .drop-title {
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+
+            .h3-title {
+                text-align: left;
+            }
+        }
+    }
+}
