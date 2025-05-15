@@ -4,7 +4,7 @@
 .main-header {
     width: 100%;
     background-color: var(--black-color);
-    padding: 0 112px;
+    padding: 0 192px;
 
     .navbar {
         position: relative;
@@ -14,7 +14,6 @@
         align-items: center;
         height: 80px;
         font-family: var(--font-default,"Inter","Arial",sans-serif);
-        padding-inline: 112px 112px;
         gap: 14px;
 
         ul {
@@ -93,6 +92,12 @@
     }
 }
 
+.burger-icon{
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
 .deezer-logo {
     width: 107px;
     height: 30px;
@@ -100,4 +105,49 @@
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("https://cdn-files.dzcdn.net/cache/slash/images/common/logos/logo-horizontal-white-text.c409af08ede4db772948.svg");
+}
+
+/* RESPONSIVE */
+@media (width < 1560px) {
+    .main-header {
+        padding: 0 112px;
+    }
+}
+
+@media (width < 1160px) {
+    .main-header {
+
+        .navbar {
+            .nav-links {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (width < 768px) {
+    .main-header {
+        padding: 0 16px;
+    }
+
+    .btn-login {
+        display: none;
+    }
+
+    .burger-icon {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .burger-line {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 3px auto;
+        background-color: var(--white-color);
+        transition: all 0.3s ease-in-out;
+    }
 }
