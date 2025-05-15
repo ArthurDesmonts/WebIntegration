@@ -14,4 +14,6 @@
     <?php include 'homePage.html'; ?>
     <?php include 'footer.html'; ?>
     <script src="js/script.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/animatedCircle.js"></script>
 </html>
