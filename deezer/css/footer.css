@@ -89,3 +89,15 @@
         cursor: pointer !important;
     }
 }
+
+@media (width < 768px) {
+    .div-multi-col-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .div-bottom {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

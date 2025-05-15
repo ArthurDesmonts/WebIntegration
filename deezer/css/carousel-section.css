@@ -155,4 +155,14 @@
     }
 }
 
+@media (width < 500px) {
+    .carousel-section {
+        .carousel {
+            margin: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+
 /* CAROUSEL SECTION END */

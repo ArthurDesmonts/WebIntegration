@@ -222,3 +222,27 @@ a {
         padding-right: 20px;
     }
 }
+
+@media (width < 1004px) {
+    .carousel-section .carousel {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .div-multi-col-container {
+        padding: 0 24px;
+    }
+
+    .div-bottom {
+        padding: 0 24px 112px 24px;
+    }
+
+    .card-container {
+        padding: 0 24px;
+    }
+
+    section {
+        max-width: 100%;
+        overflow-x: clip;
+    }
+}
