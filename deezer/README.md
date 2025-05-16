@@ -7,7 +7,9 @@
 
 Temps pour réaliser uniquement l'interface(sans gestion du responsive) :  17h30
 
-Temps passé sur le responsive : 3h40
+Temps passé sur le responsive : 4h20
+
+Temps total sur l'intégration : **21h50**
 
 ---
 

@@ -96,6 +96,7 @@
     display: none;
     cursor: pointer;
     padding: 10px;
+    transition: 0.5s;
 }
 
 .deezer-logo {
@@ -105,6 +106,50 @@
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("https://cdn-files.dzcdn.net/cache/slash/images/common/logos/logo-horizontal-white-text.c409af08ede4db772948.svg");
+}
+
+.full-screen-box {
+    display: none;
+}
+
+.menu-fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--black-color);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+    .full-screen-box {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
+
+        a {
+            font-family: var(--font-default);
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .btn-signup {
+        display: none;
+    }
 }
 
 /* RESPONSIVE */
