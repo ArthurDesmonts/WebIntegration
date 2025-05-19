@@ -1,0 +1,32 @@
+* {
+    --font-color: #111111;
+
+    font-family : "Inter","Arial",sans-serif;
+}
+
+@font-face {
+    font-family: 'Gavoline';
+    src: url('../asset/font/GavolineDemo.otf') format('truetype');
+    font-style: normal;
+}
+
+html {
+    width: 100%;
+    background-color: #EEEEEC;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+.w-100 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}

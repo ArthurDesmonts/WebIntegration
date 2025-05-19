@@ -1,0 +1,46 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+.title-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+    h1 {
+        font-family: 'Gavoline', sans-serif;
+    }
+
+    border-bottom: 1px solid black;
+}
+
+.menu-logo {
+    width: 200px;
+    height: 100px;
+}
+
+.name {
+    padding-top: 90px;
+    margin-left: -100px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
