@@ -1,0 +1,32 @@
+.gallery-grid-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    width: 50vw; /* adjust as needed */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.picture {
+    height: 100%; /* Adjust the height as needed */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    border: 3px solid #fff;
+    object-fit: cover;
+    width: 100%;
+}
+
+.picture:hover {
+    transform: scale(1.2);
+    object-fit: contain;
+    background: #fff;
+}
+
+.pic-1 {grid-column: 1/2;grid-row: 1/2;}
+.pic-2 {grid-column: 2/3;grid-row: 1/4;}
+.pic-3 {grid-column: 3/4;grid-row: 1/4;}
+.pic-4 {grid-column: 1/2;grid-row: 2/5;}
+.pic-5 {grid-column: 2/4;grid-row: 4/4;}
